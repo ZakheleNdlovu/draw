@@ -1,30 +1,31 @@
 #include <iostream>
 #include <cmath>
 
+using namspace std;
 
 int main(){
     int rows;
     int columns;
     char symbol;
 
-    std::cout << "+------------------------------+" << std::endl;
-    std::cout << "+-----Draw a parallelogram-----+" << std::endl;
-    std::cout << std::endl;
+    cout << "+------------------------------+" << endl;
+    cout << "+-----Draw a parallelogram-----+" << endl;
+    cout << endl;
 
-    std::cout << "How many rows?: ";
-    std::cin >> rows;
+    cout << "How many rows?: ";
+    cin >> rows;
 
-    std::cout << "How many columns: ";
-    std::cin >> columns;
+    cout << "How many columns: ";
+    cin >> columns;
 
-    std::cout << "Symbol: ";
-    std::cin >> symbol;
+    cout << "Symbol: ";
+    cin >> symbol;
 
     for (int i = 0; i < rows; i++){
         for (int j = 0; j < columns; j++){
-            std::cout << symbol << " ";
+            cout << symbol << " ";
         }
-        std::cout << std::endl;
+        cout << endl;
     }
 
     return 0;
