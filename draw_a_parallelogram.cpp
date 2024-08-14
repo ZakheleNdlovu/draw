@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 
-using namspace std;
+using namespace std;
 
 int main(){
     int rows;
